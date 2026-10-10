@@ -1,7 +1,6 @@
 class Restoric < Formula
   desc "Browse and restore a restic repository by time, anchored on a folder"
   homepage "https://borje.github.io/restoric/"
-  version "0.1.0"
   license "AGPL-3.0-or-later"
 
   on_macos do
