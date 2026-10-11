@@ -5,23 +5,23 @@ class Restoric < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/borje/restoric/releases/download/v0.1.0/restoric-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "38f406d458bf82661c61b4851a77c0bf7a4ae475ebc0397a5c3b1a1dfccf36af"
+      url "https://github.com/borje/restoric/releases/download/v0.1.1/restoric-v0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "a666a75fdd093aea94f9e0287e7741d3854ab68cb8334949f59a5cb9d2be94ee"
     end
     on_intel do
-      url "https://github.com/borje/restoric/releases/download/v0.1.0/restoric-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "34b93acdfb92a5257a2fbc8af05c516e85268552c17a11f985324b55c2f7d585"
+      url "https://github.com/borje/restoric/releases/download/v0.1.1/restoric-v0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "2df2712dea0eab6bc0b7b42958ed3a52e45c68c0440270988b4a48355ae71b34"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/borje/restoric/releases/download/v0.1.0/restoric-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c1e378bb11fc18d28770c60987360ab3d117efe427dc9cda0326f5f6168475e7"
+      url "https://github.com/borje/restoric/releases/download/v0.1.1/restoric-v0.1.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "7f7072d12eaad96862b3661143ec03c35c0e52969210a13bfe5e074838f91b8a"
     end
     on_intel do
-      url "https://github.com/borje/restoric/releases/download/v0.1.0/restoric-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "65b1c95ae5501c3ceaff7cd056a3d639b7ebdd5eb8723901dbb01b73e0f506a4"
+      url "https://github.com/borje/restoric/releases/download/v0.1.1/restoric-v0.1.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9cd3e3c27e6f49dc77b29b9483328e4b8dabcbb78ebc5afa5be116c684ccd9ea"
     end
   end
 
